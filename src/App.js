@@ -4,21 +4,29 @@ import ScanlineImage from "./components/Image";
 
 const Page = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  height: calc(100vh - 8rem);
+  height: calc(100vh - 4rem);
   font-size: 0;
   background: #000000;
   flex-direction: column;
-  padding: 4rem;
+  padding: 2rem;
+
+  @media (max-width: 1000px) {
+    height: unset;
+    margin-bottom: 3rem;
+  }
 `;
 
 const Row = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 4rem;
   width: 100%;
   flex: 1;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
 `;
 
 const ImageWrapper = styled.div`
