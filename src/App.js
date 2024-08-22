@@ -14,7 +14,9 @@ const Page = styled.div`
 
   @media (max-width: 1000px) {
     height: unset;
-    margin-bottom: 3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2.5rem;
+    padding: 0;
   }
 `;
 
