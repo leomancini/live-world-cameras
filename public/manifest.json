@@ -1,0 +1,9 @@
+{
+  "short_name": "NYC Traffic Cameras",
+  "name": "NYC Traffic Cameras",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
+
