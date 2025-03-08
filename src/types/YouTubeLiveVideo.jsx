@@ -55,6 +55,7 @@ const InnerWrapper = styled.div`
   width: 120%;
   height: 120%;
   overflow: hidden;
+  pointer-events: none;
 
   iframe {
     position: absolute;
@@ -65,6 +66,7 @@ const InnerWrapper = styled.div`
     transform: scale(1.1);
     transform-origin: center center;
     border: 0;
+    pointer-events: none;
   }
 `;
 
