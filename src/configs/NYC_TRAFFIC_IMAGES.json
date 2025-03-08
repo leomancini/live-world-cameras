@@ -1,0 +1,26 @@
+{
+  "1": {
+    "type": "NYCTrafficImage",
+    "source": "195870e2-8714-45c6-86ba-8ae079ef738c"
+  },
+  "2": {
+    "type": "NYCTrafficImage",
+    "source": "4b601090-d552-4c2c-804f-1360305f3dd5"
+  },
+  "3": {
+    "type": "NYCTrafficImage",
+    "source": "6a5f91d8-042f-4678-a722-2c3c560dedf2"
+  },
+  "4": {
+    "type": "NYCTrafficImage",
+    "source": "ba4a1b3a-6e33-4742-a471-18f204f488ef"
+  },
+  "5": {
+    "type": "NYCTrafficImage",
+    "source": "8a60eb4e-4069-4c0f-9bca-b8cc52915ffb"
+  },
+  "6": {
+    "type": "NYCTrafficImage",
+    "source": "b963b25c-9fcf-4a12-b502-c57468510315"
+  }
+}

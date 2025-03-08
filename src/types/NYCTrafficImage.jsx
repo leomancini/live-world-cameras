@@ -19,12 +19,12 @@ const StyledImage = styled.img`
   aspect-ratio: 352 / 240;
 `;
 
-const ScanlineImage = ({ cameraId }) => {
+const ScanlineImage = ({ source }) => {
   const [imageUrl, setImageUrl] = useState("");
 
   useEffect(() => {
     const updateImage = () => {
-      const newUrl = `https://webcams.nyctmc.org/api/cameras/${cameraId}/image?t=${new Date().getTime()}`;
+      const newUrl = `https://webcams.nyctmc.org/api/cameras/${source}/image?t=${new Date().getTime()}`;
       setImageUrl(newUrl);
     };
 
@@ -32,7 +32,7 @@ const ScanlineImage = ({ cameraId }) => {
     const refreshInterval = setInterval(updateImage, 2000);
 
     return () => clearInterval(refreshInterval);
-  }, [cameraId]);
+  }, [source]);
 
   return (
     <ImageContainer>

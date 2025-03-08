@@ -1,9 +1,29 @@
 import React from "react";
 import styled from "styled-components";
+
+import YouTubeLiveVideo from "./types/YouTubeLiveVideo";
+import NYCTrafficImage from "./types/NYCTrafficImage";
 import NYCTrafficVideo from "./types/NYCTrafficVideo";
 
+import GLOBAL_AIRPORTS from "./configs/GLOBAL_AIRPORTS.json";
+import NYC_TRAFFIC_VIDEOS from "./configs/NYC_TRAFFIC_VIDEOS.json";
+import NYC_TRAFFIC_IMAGES from "./configs/NYC_TRAFFIC_IMAGES.json";
+
+const CONFIGS = {
+  GLOBAL_AIRPORTS,
+  NYC_TRAFFIC_VIDEOS,
+  NYC_TRAFFIC_IMAGES
+};
+
+const COMPONENTS = {
+  YouTubeLiveVideo,
+  NYCTrafficImage,
+  NYCTrafficVideo
+};
+
 const Page = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: flex-start;
   align-items: center;
   height: calc(100vh - 4rem);
@@ -13,6 +33,8 @@ const Page = styled.div`
   padding: 1rem 2rem 2rem 2rem;
 
   @media (max-width: 1000px) {
+    display: flex;
+    flex-direction: column;
     height: unset;
     margin-top: 0.5rem;
     margin-bottom: 2.5rem;
@@ -20,50 +42,48 @@ const Page = styled.div`
   }
 `;
 
-const Row = styled.div`
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  flex: 1;
+let CONFIG = CONFIGS.NYC_TRAFFIC_VIDEOS;
+const queryParams = new URLSearchParams(window.location.search);
+const configParam = queryParams.get("config");
 
-  @media (max-width: 1000px) {
-    flex-direction: column;
-  }
-`;
+if (window.location.hostname.includes("live-cameras")) {
+  CONFIG = CONFIGS[configParam] || CONFIG;
+}
 
-const CameraWrapper = styled.div`
-  flex: 1;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
+if (configParam) {
+  CONFIG = CONFIGS[configParam] || CONFIG;
+}
+
+const toTitleCase = (str) => {
+  return str
+    .split("_")
+    .map((word) =>
+      word === "NYC"
+        ? "NYC"
+        : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+    )
+    .join(" ");
+};
+
+const activeConfigName =
+  Object.entries(CONFIGS).find(([_, value]) => value === CONFIG)?.[0] ||
+  "Default Config";
+document.title = toTitleCase(activeConfigName);
 
 function App() {
   return (
     <Page>
-      <Row>
-        <CameraWrapper>
-          <NYCTrafficVideo src="https://s51.nysdot.skyvdn.com:443/rtplive/R11_127/playlist.m3u8" />
-        </CameraWrapper>
-        <CameraWrapper>
-          <NYCTrafficVideo src="https://s53.nysdot.skyvdn.com:443/rtplive/R11_083/playlist.m3u8" />
-        </CameraWrapper>
-        <CameraWrapper>
-          <NYCTrafficVideo src="https://s51.nysdot.skyvdn.com:443/rtplive/R11_070/playlist.m3u8" />
-        </CameraWrapper>
-      </Row>
-      <Row>
-        <CameraWrapper>
-          <NYCTrafficVideo src="https://s51.nysdot.skyvdn.com:443/rtplive/R11_122/playlist.m3u8" />
-        </CameraWrapper>
-        <CameraWrapper>
-          <NYCTrafficVideo src="https://s9.nysdot.skyvdn.com:443/rtplive/R11_296/playlist.m3u8" />
-        </CameraWrapper>
-        <CameraWrapper>
-          <NYCTrafficVideo src="https://s9.nysdot.skyvdn.com:443/rtplive/R11_223/playlist.m3u8" />
-        </CameraWrapper>
-      </Row>
+      {Object.keys(CONFIG).map((key) => {
+        const Component = COMPONENTS[CONFIG[key].type];
+        if (!Component) {
+          console.error(
+            `Component type "${CONFIG[key].type}" not found. Available components:`,
+            Object.keys(COMPONENTS)
+          );
+          return null;
+        }
+        return <Component key={key} source={CONFIG[key].source} />;
+      })}
     </Page>
   );
 }

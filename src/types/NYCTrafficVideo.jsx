@@ -7,16 +7,47 @@ import { Mask, ScanlineOverlay } from "../components/Scanline";
 const VideoContainer = styled.div`
   position: relative;
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   opacity: 0;
   transition: opacity 0.5s ease-in;
+  background: black;
 
   &.video-loaded {
     opacity: 1;
   }
+`;
+
+const AspectRatioContainer = styled.div`
+  position: relative;
+  width: 100%;
+  padding-top: calc(240 / 320 * 100%);
+  max-height: 100%;
+`;
+
+const VideoWrapper = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  max-width: calc(100vh * (352 / 240));
+  max-height: 100%;
+  overflow: hidden;
+`;
+
+const ScaledWrapper = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 96%;
+  height: 96%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
 
   .video-js {
     width: 100%;
@@ -24,22 +55,21 @@ const VideoContainer = styled.div`
   }
 
   .video-js video {
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
     object-fit: cover;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -5%;
+    left: -5%;
   }
 `;
 
-const ScanlineVideo = ({ src }) => {
+const ScanlineVideo = ({ source }) => {
   const videoRef = useRef(null);
   const playerRef = useRef(null);
   const containerRef = useRef(null);
 
   useEffect(() => {
-    // Make sure Video.js player is only initialized once
     if (!playerRef.current) {
       playerRef.current = videojs(videoRef.current, {
         controls: false,
@@ -50,46 +80,49 @@ const ScanlineVideo = ({ src }) => {
         playsinline: true,
         sources: [
           {
-            src: src,
-            type: src.includes("playlist.m3u8")
+            src: source,
+            type: source.includes("playlist.m3u8")
               ? "application/x-mpegURL"
               : "video/mp4"
           }
         ]
       });
 
-      // Add loaded event listener with delay
       playerRef.current.on("loadeddata", () => {
         setTimeout(() => {
           containerRef.current.classList.add("video-loaded");
-        }, 1000); // Wait 1 second before fading in
+        }, 1000);
       });
 
-      // Force play on player ready
       playerRef.current.ready(() => {
         playerRef.current.play();
       });
     }
 
-    // Dispose the Video.js player when the component unmounts
     return () => {
       if (playerRef.current) {
         playerRef.current.dispose();
         playerRef.current = null;
       }
     };
-  }, [src]);
+  }, [source]);
 
   return (
     <VideoContainer ref={containerRef}>
-      <Mask />
-      <ScanlineOverlay />
-      <video ref={videoRef} className="video-js vjs-default-skin">
-        <p className="vjs-no-js">
-          To view this video please enable JavaScript, and consider upgrading to
-          a web browser that supports HTML5 video
-        </p>
-      </video>
+      <AspectRatioContainer>
+        <VideoWrapper>
+          <ScaledWrapper>
+            <video ref={videoRef} className="video-js vjs-default-skin">
+              <p className="vjs-no-js">
+                To view this video please enable JavaScript, and consider
+                upgrading to a web browser that supports HTML5 video
+              </p>
+            </video>
+          </ScaledWrapper>
+          <Mask />
+          <ScanlineOverlay />
+        </VideoWrapper>
+      </AspectRatioContainer>
     </VideoContainer>
   );
 };

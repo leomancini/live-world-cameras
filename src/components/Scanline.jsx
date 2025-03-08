@@ -15,10 +15,11 @@ export const Mask = styled.div`
 
 export const ScanlineOverlay = styled.div`
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  top: 50%;
+  left: 50%;
+  width: 96%;
+  height: 96%;
+  transform: translate(-50%, -50%);
   background: repeating-linear-gradient(
     to bottom,
     transparent 0px,
