@@ -63,7 +63,7 @@ const InnerWrapper = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    transform: scale(1.1);
+    transform: scale(1.3);
     transform-origin: center center;
     border: 0;
     pointer-events: none;

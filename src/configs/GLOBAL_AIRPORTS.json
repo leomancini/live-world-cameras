@@ -1,26 +1,32 @@
 {
   "1": {
     "type": "YouTubeLiveVideo",
-    "source": "XF6YDqccSsg"
+    "source": "XF6YDqccSsg",
+    "label": "Chicago"
   },
   "2": {
     "type": "YouTubeLiveVideo",
-    "source": "A0FCKcTuRHo"
+    "source": "A0FCKcTuRHo",
+    "label": "Tokyo"
   },
   "3": {
     "type": "YouTubeLiveVideo",
-    "source": "jWCdG6mTTkk"
+    "source": "SqYtWlLtuP0",
+    "label": "Los Angeles"
   },
   "4": {
     "type": "YouTubeLiveVideo",
-    "source": "hfF9bhaBuvw"
+    "source": "hfF9bhaBuvw",
+    "label": "Greenland"
   },
   "5": {
     "type": "YouTubeLiveVideo",
-    "source": "4YdNNvajwjI"
+    "source": "AAlo3eCPVbk",
+    "label": "Canary Islands"
   },
   "6": {
     "type": "YouTubeLiveVideo",
-    "source": "v7xySvhug0Y"
+    "source": "v7xySvhug0Y",
+    "label": "Wellington"
   }
 }

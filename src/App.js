@@ -36,10 +36,28 @@ const Page = styled.div`
     display: flex;
     flex-direction: column;
     height: unset;
-    margin-top: 0.5rem;
-    margin-bottom: 2.5rem;
+    align-items: unset;
     padding: 0;
   }
+`;
+
+const CameraContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Label = styled.div`
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: -0.5rem;
+  z-index: 2;
+  font-weight: 500;
+  font-family: "Overpass Mono", monospace;
 `;
 
 let CONFIG = CONFIGS.NYC_TRAFFIC_VIDEOS;
@@ -72,19 +90,26 @@ document.title = toTitleCase(activeConfigName);
 
 function App() {
   return (
-    <Page>
-      {Object.keys(CONFIG).map((key) => {
-        const Component = COMPONENTS[CONFIG[key].type];
-        if (!Component) {
-          console.error(
-            `Component type "${CONFIG[key].type}" not found. Available components:`,
-            Object.keys(COMPONENTS)
+    <>
+      <Page>
+        {Object.keys(CONFIG).map((key) => {
+          const CameraComponent = COMPONENTS[CONFIG[key].type];
+          if (!CameraComponent) {
+            console.error(
+              `Component type "${CONFIG[key].type}" not found. Available components:`,
+              Object.keys(COMPONENTS)
+            );
+            return null;
+          }
+          return (
+            <CameraContainer key={key}>
+              <CameraComponent source={CONFIG[key].source} />
+              {CONFIG[key].label && <Label>{CONFIG[key].label}</Label>}
+            </CameraContainer>
           );
-          return null;
-        }
-        return <Component key={key} source={CONFIG[key].source} />;
-      })}
-    </Page>
+        })}
+      </Page>
+    </>
   );
 }
 
