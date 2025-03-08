@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
 import styled from "styled-components";
-import { Mask, ScanlineOverlay } from "./Scanline";
+import { Mask, ScanlineOverlay } from "../components/Scanline";
 
 const VideoContainer = styled.div`
   position: relative;

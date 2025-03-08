@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ScanlineVideo from "./components/ScanlineVideo";
+import NYCTrafficVideo from "./types/NYCTrafficVideo";
 
 const Page = styled.div`
   display: flex;
@@ -44,24 +44,24 @@ function App() {
     <Page>
       <Row>
         <CameraWrapper>
-          <ScanlineVideo src="https://s51.nysdot.skyvdn.com:443/rtplive/R11_127/playlist.m3u8" />
+          <NYCTrafficVideo src="https://s51.nysdot.skyvdn.com:443/rtplive/R11_127/playlist.m3u8" />
         </CameraWrapper>
         <CameraWrapper>
-          <ScanlineVideo src="https://s53.nysdot.skyvdn.com:443/rtplive/R11_083/playlist.m3u8" />
+          <NYCTrafficVideo src="https://s53.nysdot.skyvdn.com:443/rtplive/R11_083/playlist.m3u8" />
         </CameraWrapper>
         <CameraWrapper>
-          <ScanlineVideo src="https://s51.nysdot.skyvdn.com:443/rtplive/R11_070/playlist.m3u8" />
+          <NYCTrafficVideo src="https://s51.nysdot.skyvdn.com:443/rtplive/R11_070/playlist.m3u8" />
         </CameraWrapper>
       </Row>
       <Row>
         <CameraWrapper>
-          <ScanlineVideo src="https://s51.nysdot.skyvdn.com:443/rtplive/R11_122/playlist.m3u8" />
+          <NYCTrafficVideo src="https://s51.nysdot.skyvdn.com:443/rtplive/R11_122/playlist.m3u8" />
         </CameraWrapper>
         <CameraWrapper>
-          <ScanlineVideo src="https://s9.nysdot.skyvdn.com:443/rtplive/R11_296/playlist.m3u8" />
+          <NYCTrafficVideo src="https://s9.nysdot.skyvdn.com:443/rtplive/R11_296/playlist.m3u8" />
         </CameraWrapper>
         <CameraWrapper>
-          <ScanlineVideo src="https://s9.nysdot.skyvdn.com:443/rtplive/R11_223/playlist.m3u8" />
+          <NYCTrafficVideo src="https://s9.nysdot.skyvdn.com:443/rtplive/R11_223/playlist.m3u8" />
         </CameraWrapper>
       </Row>
     </Page>

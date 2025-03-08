@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import { Mask, ScanlineOverlay } from "./Scanline";
+import { Mask, ScanlineOverlay } from "../components/Scanline";
 
 const ImageContainer = styled.div`
   position: relative;
