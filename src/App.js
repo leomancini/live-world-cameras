@@ -37,7 +37,7 @@ const Page = styled.div`
     flex-direction: column;
     height: unset;
     align-items: unset;
-    padding: 0;
+    padding: 0 0 2rem 0;
   }
 `;
 
