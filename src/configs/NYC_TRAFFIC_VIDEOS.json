@@ -1,31 +1,44 @@
 {
   "metadata": {
-    "name": "NYC Traffic Cameras"
+    "name": "NYC Traffic Cameras",
+    "source": "https://511ny.org/Map/EmbeddedMap"
   },
   "cameras": [
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_127/playlist.m3u8"
+      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_127/playlist.m3u8",
+      "location": "I-495 at Queens Midtown Tunnel",
+      "label": "Queens Midtown Tunnel"
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_083/playlist.m3u8"
+      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_096/playlist.m3u8",
+      "location": "I-278 at 54th Avenue",
+      "label": "Kosciuszko Bridge"
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_070/playlist.m3u8"
+      "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_118/playlist.m3u8",
+      "location": "907M at Roosevelt Avenue",
+      "label": "Grand Central Parkway"
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_122/playlist.m3u8"
+      "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_143/playlist.m3u8",
+      "location": "I-495 at Grand Central Parkway",
+      "label": "Long Island Expressway"
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s9.nysdot.skyvdn.com:443/rtplive/R11_296/playlist.m3u8"
+      "source": "https://s52.nysdot.skyvdn.com:443/rtplive/R11_140/playlist.m3u8",
+      "location": "I-495 at 84th Street",
+      "label": "84th Street"
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s9.nysdot.skyvdn.com:443/rtplive/R11_223/playlist.m3u8"
+      "source": "https://s52.nysdot.skyvdn.com:443/rtplive/R11_019/playlist.m3u8",
+      "location": "I-95 at Clay Avenue",
+      "label": "Interstate 95"
     }
   ]
 }
