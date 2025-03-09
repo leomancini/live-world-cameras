@@ -1,26 +1,31 @@
 {
-  "1": {
-    "type": "NYCTrafficVideo",
-    "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_127/playlist.m3u8"
+  "metadata": {
+    "name": "NYC Traffic Cameras"
   },
-  "2": {
-    "type": "NYCTrafficVideo",
-    "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_083/playlist.m3u8"
-  },
-  "3": {
-    "type": "NYCTrafficVideo",
-    "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_070/playlist.m3u8"
-  },
-  "4": {
-    "type": "NYCTrafficVideo",
-    "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_122/playlist.m3u8"
-  },
-  "5": {
-    "type": "NYCTrafficVideo",
-    "source": "https://s9.nysdot.skyvdn.com:443/rtplive/R11_296/playlist.m3u8"
-  },
-  "6": {
-    "type": "NYCTrafficVideo",
-    "source": "https://s9.nysdot.skyvdn.com:443/rtplive/R11_223/playlist.m3u8"
-  }
+  "cameras": [
+    {
+      "type": "NYCTrafficVideo",
+      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_127/playlist.m3u8"
+    },
+    {
+      "type": "NYCTrafficVideo",
+      "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_083/playlist.m3u8"
+    },
+    {
+      "type": "NYCTrafficVideo",
+      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_070/playlist.m3u8"
+    },
+    {
+      "type": "NYCTrafficVideo",
+      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_122/playlist.m3u8"
+    },
+    {
+      "type": "NYCTrafficVideo",
+      "source": "https://s9.nysdot.skyvdn.com:443/rtplive/R11_296/playlist.m3u8"
+    },
+    {
+      "type": "NYCTrafficVideo",
+      "source": "https://s9.nysdot.skyvdn.com:443/rtplive/R11_223/playlist.m3u8"
+    }
+  ]
 }

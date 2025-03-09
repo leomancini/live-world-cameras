@@ -77,21 +77,7 @@ if (configParam) {
   CONFIG = CONFIGS[configParam] || CONFIG;
 }
 
-const toTitleCase = (str) => {
-  return str
-    .split("_")
-    .map((word) =>
-      word === "NYC"
-        ? "NYC"
-        : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
-    )
-    .join(" ");
-};
-
-const activeConfigName =
-  Object.entries(CONFIGS).find(([_, value]) => value === CONFIG)?.[0] ||
-  "Default Config";
-document.title = toTitleCase(activeConfigName);
+document.title = CONFIG.metadata.name;
 
 const shouldForwardProp = (prop) => isPropValid(prop) && prop !== "isVisible";
 
@@ -120,19 +106,19 @@ function App() {
   return (
     <StyleSheetManager shouldForwardProp={shouldForwardProp}>
       <Page>
-        {Object.keys(CONFIG).map((key) => {
-          const CameraComponent = COMPONENTS[CONFIG[key].type];
+        {CONFIG.cameras.map((camera, index) => {
+          const CameraComponent = COMPONENTS[camera.type];
           if (!CameraComponent) {
             console.error(
-              `Component type "${CONFIG[key].type}" not found. Available components:`,
+              `Component type "${camera.type}" not found. Available components:`,
               Object.keys(COMPONENTS)
             );
             return null;
           }
           return (
-            <CameraContainer key={key} isVisible={isVisible}>
-              <CameraComponent source={CONFIG[key].source} />
-              {CONFIG[key].label && <Label>{CONFIG[key].label}</Label>}
+            <CameraContainer key={index} isVisible={isVisible}>
+              <CameraComponent source={camera.source} />
+              {camera.label && <Label>{camera.label}</Label>}
             </CameraContainer>
           );
         })}

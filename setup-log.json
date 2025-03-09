@@ -1,7 +1,7 @@
 {
-  "app_id": "nyc-traffic-cameras",
-  "app_name": "NYC Traffic Cameras",
-  "domain": "https://nyc-traffic-cameras.leo.gd",
+  "app_id": "live-cameras",
+  "app_name": "Live Cameras",
+  "domain": "https://live-cameras.leo.gd",
   "author": "leo",
-  "created_on": "Wed 21 Aug 2024 10:07:23 PM EDT"
+  "created_on": "Sun 09 Mar 2025 10:07:23 PM EDT"
 }

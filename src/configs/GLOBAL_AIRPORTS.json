@@ -1,32 +1,37 @@
 {
-  "1": {
-    "type": "YouTubeLiveVideo",
-    "source": "XF6YDqccSsg",
-    "label": "Chicago"
+  "metadata": {
+    "name": "Global Airports"
   },
-  "2": {
-    "type": "YouTubeLiveVideo",
-    "source": "A0FCKcTuRHo",
-    "label": "Tokyo"
-  },
-  "3": {
-    "type": "YouTubeLiveVideo",
-    "source": "SqYtWlLtuP0",
-    "label": "Los Angeles"
-  },
-  "4": {
-    "type": "YouTubeLiveVideo",
-    "source": "hfF9bhaBuvw",
-    "label": "Greenland"
-  },
-  "5": {
-    "type": "YouTubeLiveVideo",
-    "source": "AAlo3eCPVbk",
-    "label": "Canary Islands"
-  },
-  "6": {
-    "type": "YouTubeLiveVideo",
-    "source": "v7xySvhug0Y",
-    "label": "Wellington"
-  }
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "XF6YDqccSsg",
+      "label": "Chicago"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "A0FCKcTuRHo",
+      "label": "Tokyo"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "SqYtWlLtuP0",
+      "label": "Los Angeles"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "hfF9bhaBuvw",
+      "label": "Greenland"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "AAlo3eCPVbk",
+      "label": "Canary Islands"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "v7xySvhug0Y",
+      "label": "Wellington"
+    }
+  ]
 }
