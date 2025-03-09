@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
 import styled from "styled-components";
-import { Mask, ScanlineOverlay } from "../components/Scanline";
+import { Mask, Scanline, Color } from "../components/Overlay";
 
 const VideoContainer = styled.div`
   position: relative;
@@ -111,7 +111,10 @@ const ScanlineVideo = ({ source }) => {
     <VideoContainer ref={containerRef}>
       <AspectRatioContainer>
         <VideoWrapper>
+          <Mask />
           <ScaledWrapper>
+            <Scanline />
+            <Color />
             <video ref={videoRef} className="video-js vjs-default-skin">
               <p className="vjs-no-js">
                 To view this video please enable JavaScript, and consider
@@ -119,8 +122,6 @@ const ScanlineVideo = ({ source }) => {
               </p>
             </video>
           </ScaledWrapper>
-          <Mask />
-          <ScanlineOverlay />
         </VideoWrapper>
       </AspectRatioContainer>
     </VideoContainer>

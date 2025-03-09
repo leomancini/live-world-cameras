@@ -1,5 +1,6 @@
-import React from "react";
-import styled from "styled-components";
+import React, { useState, useEffect } from "react";
+import styled, { StyleSheetManager } from "styled-components";
+import isPropValid from "@emotion/is-prop-valid";
 
 import YouTubeLiveVideo from "./types/YouTubeLiveVideo";
 import NYCTrafficImage from "./types/NYCTrafficImage";
@@ -46,6 +47,10 @@ const CameraContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  opacity: ${(props) => (props.isVisible ? 1 : 0)};
+  visibility: ${(props) => (props.isVisible ? "visible" : "hidden")};
+  transition: ${(props) =>
+    props.isVisible ? "opacity 0.3s ease-in-out, visibility 0s" : "none"};
 `;
 
 const Label = styled.div`
@@ -88,9 +93,32 @@ const activeConfigName =
   "Default Config";
 document.title = toTitleCase(activeConfigName);
 
+const shouldForwardProp = (prop) => isPropValid(prop) && prop !== "isVisible";
+
 function App() {
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        // Hide immediately when tab becomes hidden
+        setIsVisible(false);
+      } else {
+        // Show after delay when tab becomes visible
+        setTimeout(() => {
+          setIsVisible(true);
+        }, 500);
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, []);
+
   return (
-    <>
+    <StyleSheetManager shouldForwardProp={shouldForwardProp}>
       <Page>
         {Object.keys(CONFIG).map((key) => {
           const CameraComponent = COMPONENTS[CONFIG[key].type];
@@ -102,14 +130,14 @@ function App() {
             return null;
           }
           return (
-            <CameraContainer key={key}>
+            <CameraContainer key={key} isVisible={isVisible}>
               <CameraComponent source={CONFIG[key].source} />
               {CONFIG[key].label && <Label>{CONFIG[key].label}</Label>}
             </CameraContainer>
           );
         })}
       </Page>
-    </>
+    </StyleSheetManager>
   );
 }
 

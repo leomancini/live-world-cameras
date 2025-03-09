@@ -13,7 +13,7 @@ export const Mask = styled.div`
   z-index: 3;
 `;
 
-export const ScanlineOverlay = styled.div`
+export const Scanline = styled.div`
   position: absolute;
   top: 50%;
   left: 50%;
@@ -24,9 +24,21 @@ export const ScanlineOverlay = styled.div`
     to bottom,
     transparent 0px,
     transparent 2px,
-    rgba(255, 225, 255, 0.2) 2px,
-    rgba(255, 225, 255, 0.2) 4px
+    rgba(0, 0, 0, 0.2) 2px,
+    rgba(0, 0, 0, 0.2) 4px
   );
   pointer-events: none;
+  z-index: 3;
+  mix-blend-mode: overlay;
+`;
+
+export const Color = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(white, black);
+  mix-blend-mode: soft-light;
   z-index: 2;
 `;

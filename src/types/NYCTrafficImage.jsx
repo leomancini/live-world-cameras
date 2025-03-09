@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import { Mask, ScanlineOverlay } from "../components/Scanline";
+import { Mask, Scanline, Color } from "../components/Overlay";
 
 const ImageContainer = styled.div`
   position: relative;
@@ -37,7 +37,8 @@ const ScanlineImage = ({ source }) => {
   return (
     <ImageContainer>
       <Mask />
-      <ScanlineOverlay />
+      <Scanline />
+      <Color />
       {imageUrl && <StyledImage src={imageUrl} alt="Camera feed" />}
     </ImageContainer>
   );

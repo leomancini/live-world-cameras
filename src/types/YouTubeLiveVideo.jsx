@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
-import { Mask, ScanlineOverlay } from "../components/Scanline";
+import { Mask, Scanline, Color } from "../components/Overlay";
 
 const VideoContainer = styled.div`
   position: relative;
@@ -85,7 +85,10 @@ const YouTubeLiveVideo = ({ source }) => {
     <VideoContainer ref={containerRef}>
       <AspectRatioContainer>
         <VideoWrapper>
+          <Mask />
           <ScaledWrapper>
+            <Scanline />
+            <Color />
             <InnerWrapper>
               <iframe
                 src={`https://www.youtube-nocookie.com/embed/${source}?autoplay=1&mute=1&controls=0&modestbranding=1&playsinline=1&enablejsapi=1&rel=0`}
@@ -95,8 +98,6 @@ const YouTubeLiveVideo = ({ source }) => {
               />
             </InnerWrapper>
           </ScaledWrapper>
-          <Mask />
-          <ScanlineOverlay />
         </VideoWrapper>
       </AspectRatioContainer>
     </VideoContainer>
