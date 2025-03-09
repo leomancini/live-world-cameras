@@ -5,27 +5,39 @@
   "cameras": [
     {
       "type": "NYCTrafficImage",
-      "source": "195870e2-8714-45c6-86ba-8ae079ef738c"
+      "source": "195870e2-8714-45c6-86ba-8ae079ef738c",
+      "location": "McGuinness Blvd @ Green St",
+      "label": "McGuinness Blvd @ Green St"
     },
     {
       "type": "NYCTrafficImage",
-      "source": "4b601090-d552-4c2c-804f-1360305f3dd5"
+      "source": "4b601090-d552-4c2c-804f-1360305f3dd5",
+      "location": "McGuinness Blvd @ Greenpoint Ave",
+      "label": "McGuinness Blvd @ Greenpoint Ave"
     },
     {
       "type": "NYCTrafficImage",
-      "source": "6a5f91d8-042f-4678-a722-2c3c560dedf2"
+      "source": "6a5f91d8-042f-4678-a722-2c3c560dedf2",
+      "location": "Wythe Ave @ North 12 St",
+      "label": "Wythe Ave @ North 12 St"
     },
     {
       "type": "NYCTrafficImage",
-      "source": "ba4a1b3a-6e33-4742-a471-18f204f488ef"
+      "source": "ba4a1b3a-6e33-4742-a471-18f204f488ef",
+      "location": "Metropolitan Ave @ Union Ave",
+      "label": "Metropolitan Ave @ Union Ave"
     },
     {
       "type": "NYCTrafficImage",
-      "source": "8a60eb4e-4069-4c0f-9bca-b8cc52915ffb"
+      "source": "8a60eb4e-4069-4c0f-9bca-b8cc52915ffb",
+      "location": "Jackson Ave @ 21 St",
+      "label": "Jackson Ave @ 21 St"
     },
     {
       "type": "NYCTrafficImage",
-      "source": "b963b25c-9fcf-4a12-b502-c57468510315"
+      "source": "b963b25c-9fcf-4a12-b502-c57468510315",
+      "location": "QBB UL Entrance @ Thomson Ave",
+      "label": "QBB UL Entrance @ Thomson Ave"
     }
   ]
 }

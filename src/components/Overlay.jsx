@@ -38,7 +38,11 @@ export const Color = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(white, black);
-  mix-blend-mode: soft-light;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(0, 0, 0, 0.25) 70%
+  );
+  mix-blend-mode: overlay;
   z-index: 2;
 `;
