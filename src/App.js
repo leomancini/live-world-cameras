@@ -7,18 +7,20 @@ import NYCTrafficVideo from "./types/NYCTrafficVideo";
 import YouTubeLiveVideo from "./types/YouTubeLiveVideo";
 import YouTubeLoopingVideo from "./types/YouTubeLoopingVideo";
 
-import GLOBAL_AIRPORTS from "./configs/GLOBAL_AIRPORTS.json";
+import WORLD_AIRPORTS from "./configs/WORLD_AIRPORTS.json";
+import WORLD_CITIES from "./configs/WORLD_CITIES.json";
+import US_CITIES from "./configs/US_CITIES.json";
 import NYC_TRAFFIC_VIDEOS from "./configs/NYC_TRAFFIC_VIDEOS.json";
 import NYC_TRAFFIC_IMAGES from "./configs/NYC_TRAFFIC_IMAGES.json";
-import US_CITIES from "./configs/US_CITIES.json";
 import NYC_STREETS from "./configs/NYC_STREETS.json";
 import NYC_OLD_STREETS from "./configs/NYC_OLD_STREETS.json";
 
 const CONFIGS = {
-  GLOBAL_AIRPORTS,
+  WORLD_AIRPORTS,
+  WORLD_CITIES,
+  US_CITIES,
   NYC_TRAFFIC_VIDEOS,
   NYC_TRAFFIC_IMAGES,
-  US_CITIES,
   NYC_STREETS,
   NYC_OLD_STREETS
 };
@@ -79,8 +81,14 @@ const configParam = queryParams.get("config");
 const pathConfig = window.location.pathname.substring(1); // Remove leading slash
 
 const formatConfigName = (name) => {
-  if (!name) return name;
-  return name.toUpperCase().replace(/-/g, "_");
+  if (!name) return null;
+  // First replace global with world, then handle the formatting
+  const formattedName = name
+    .toLowerCase()
+    .replace(/global/g, "world")
+    .toUpperCase()
+    .replace(/-/g, "_");
+  return formattedName;
 };
 
 let configName = formatConfigName(configParam);
@@ -89,9 +97,13 @@ if (!configName && pathConfig) {
 }
 
 if (window.location.hostname.includes("live-world-cameras")) {
-  CONFIG = CONFIGS[configName] || CONFIGS.US_CITIES;
+  CONFIG =
+    configName && CONFIGS[configName] ? CONFIGS[configName] : CONFIGS.US_CITIES;
 } else {
-  CONFIG = CONFIGS.NYC_TRAFFIC_VIDEOS;
+  CONFIG =
+    configName && CONFIGS[configName]
+      ? CONFIGS[configName]
+      : CONFIGS.NYC_TRAFFIC_VIDEOS;
 }
 
 document.title = CONFIG.metadata.name;

@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "name": "World Cities"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "TUd7JORZeWo",
+      "location": "Shibuya Scramble Crossing, Tokyo, Japan",
+      "label": "Tokyo"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "RDqrx6S2z20",
+      "location": "Dome of St. Peter's, Rome",
+      "label": "Rome"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "Q71sLS8h9a4",
+      "location": "Sukhumvit Road, Bangkok, Thailand",
+      "label": "Bangkok"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "peNuCjLYm_k",
+      "location": "Seoul Station Plaza, Seoul, South Korea",
+      "label": "Seoul"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "7dE4IjDQJmE",
+      "location": "Fairmont The Palm, Dubai, UAE",
+      "label": "Dubai"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "5uZa3-RMFos",
+      "location": "Sydney Harbour Bridge and Opera House",
+      "label": "Sydney"
+    }
+  ]
+}
