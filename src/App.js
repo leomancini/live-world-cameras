@@ -73,25 +73,25 @@ const Label = styled.div`
   font-family: "Overpass Mono", monospace;
 `;
 
-let CONFIG = CONFIGS.NYC_TRAFFIC_VIDEOS;
+let CONFIG;
 const queryParams = new URLSearchParams(window.location.search);
 const configParam = queryParams.get("config");
 const pathConfig = window.location.pathname.substring(1); // Remove leading slash
 
-// Convert kebab-case to UPPER_SNAKE_CASE
 const formatConfigName = (name) => {
   if (!name) return name;
   return name.toUpperCase().replace(/-/g, "_");
 };
 
-// Check both query param and path-based config
 let configName = formatConfigName(configParam);
 if (!configName && pathConfig) {
   configName = formatConfigName(pathConfig);
 }
 
-if (configName && CONFIGS[configName]) {
-  CONFIG = CONFIGS[configName];
+if (window.location.hostname.includes("live-world-cameras")) {
+  CONFIG = CONFIGS[configName] || CONFIGS.US_CITIES;
+} else {
+  CONFIG = CONFIGS.NYC_TRAFFIC_VIDEOS;
 }
 
 document.title = CONFIG.metadata.name;
