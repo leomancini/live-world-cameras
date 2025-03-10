@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "name": "Japan"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "gFRtAAmiFbE",
+      "location": "Kabukicho, Shinjuku, Tokyo",
+      "label": "Kabukicho A"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "lA6TaaMGgDo",
+      "location": "Shinjuku, Tokyo",
+      "label": "Shinjuku A"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "XntnzALjg1s",
+      "location": "Sapporo, Hokkaido",
+      "label": "Sapporo A"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "ErHJBXTmm2Q",
+      "location": "Kabukicho, Shinjuku, Tokyo",
+      "label": "Kabukicho B"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "GLQhbRGv5qU",
+      "location": "Shinjuku JR Station",
+      "label": "Shinjuku B"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "CF1vS8DdBIk",
+      "location": "Sapporo, Hokkaido",
+      "label": "Sapporo B"
+    }
+  ]
+}

@@ -14,6 +14,7 @@ import NYC_TRAFFIC_VIDEOS from "./configs/NYC_TRAFFIC_VIDEOS.json";
 import NYC_TRAFFIC_IMAGES from "./configs/NYC_TRAFFIC_IMAGES.json";
 import NYC_STREETS from "./configs/NYC_STREETS.json";
 import NYC_OLD_STREETS from "./configs/NYC_OLD_STREETS.json";
+import JAPAN from "./configs/JAPAN.json";
 
 const CONFIGS = {
   WORLD_AIRPORTS,
@@ -22,7 +23,8 @@ const CONFIGS = {
   NYC_TRAFFIC_VIDEOS,
   NYC_TRAFFIC_IMAGES,
   NYC_STREETS,
-  NYC_OLD_STREETS
+  NYC_OLD_STREETS,
+  JAPAN
 };
 
 const COMPONENTS = {
