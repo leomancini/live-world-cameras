@@ -2,24 +2,32 @@ import React, { useState, useEffect } from "react";
 import styled, { StyleSheetManager } from "styled-components";
 import isPropValid from "@emotion/is-prop-valid";
 
-import YouTubeLiveVideo from "./types/YouTubeLiveVideo";
 import NYCTrafficImage from "./types/NYCTrafficImage";
 import NYCTrafficVideo from "./types/NYCTrafficVideo";
+import YouTubeLiveVideo from "./types/YouTubeLiveVideo";
+import YouTubeLoopingVideo from "./types/YouTubeLoopingVideo";
 
 import GLOBAL_AIRPORTS from "./configs/GLOBAL_AIRPORTS.json";
 import NYC_TRAFFIC_VIDEOS from "./configs/NYC_TRAFFIC_VIDEOS.json";
 import NYC_TRAFFIC_IMAGES from "./configs/NYC_TRAFFIC_IMAGES.json";
+import US_CITIES from "./configs/US_CITIES.json";
+import NYC_STREETS from "./configs/NYC_STREETS.json";
+import NYC_OLD_STREETS from "./configs/NYC_OLD_STREETS.json";
 
 const CONFIGS = {
   GLOBAL_AIRPORTS,
   NYC_TRAFFIC_VIDEOS,
-  NYC_TRAFFIC_IMAGES
+  NYC_TRAFFIC_IMAGES,
+  US_CITIES,
+  NYC_STREETS,
+  NYC_OLD_STREETS
 };
 
 const COMPONENTS = {
-  YouTubeLiveVideo,
   NYCTrafficImage,
-  NYCTrafficVideo
+  NYCTrafficVideo,
+  YouTubeLiveVideo,
+  YouTubeLoopingVideo
 };
 
 const Page = styled.div`
@@ -117,7 +125,11 @@ function App() {
           }
           return (
             <CameraContainer key={index} isVisible={isVisible}>
-              <CameraComponent source={camera.source} />
+              <CameraComponent
+                source={camera.source}
+                startTime={camera.startTime}
+                zoom={camera.zoom}
+              />
               {camera.label && <Label>{camera.label}</Label>}
             </CameraContainer>
           );

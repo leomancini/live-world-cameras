@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "name": "NYC Old Streets"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLoopingVideo",
+      "source": "UERgaTAPKb4",
+      "label": "1899",
+      "zoom": 1.5
+    },
+    {
+      "type": "YouTubeLoopingVideo",
+      "source": "hZ1OgQL9_Cw",
+      "label": "1911",
+      "startTime": 20
+    },
+    {
+      "type": "YouTubeLoopingVideo",
+      "source": "ePH--widhXk",
+      "label": "1930",
+      "startTime": 20
+    },
+    {
+      "type": "YouTubeLoopingVideo",
+      "source": "IjwyUAtACTI",
+      "label": "1940",
+      "startTime": 20
+    },
+    {
+      "type": "YouTubeLoopingVideo",
+      "source": "8uHdbMOqSwY",
+      "label": "1956"
+    },
+    {
+      "type": "YouTubeLoopingVideo",
+      "source": "2ASgDgfvecY",
+      "label": "1995",
+      "startTime": 10
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "name": "US Cities",
+    "source": "https://www.youtube.com/@earthcam/streams"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "Sig0Em5XTWQ",
+      "location": "Sitka, Alaska",
+      "label": "Sitka, AK"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "i---Bn8Z4PU",
+      "location": "Philadelphia",
+      "label": "Philadelphia, PA"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "__S1lZ6t1qg",
+      "location": "Roswell, New Mexico",
+      "label": "Roswell, NM"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "sQxL8t0gtu8",
+      "location": "Chicago",
+      "label": "Chicago, IL"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "DLmn7f9SJ5A",
+      "location": "New Orleans",
+      "label": "New Orleans, LA"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "Ezm7jMHsx5A",
+      "location": "Kansas City",
+      "label": "Kansas City, MO"
+    }
+  ]
+}

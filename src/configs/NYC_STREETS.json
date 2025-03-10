@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "name": "NYC Streets",
+    "sources": [
+      "https://www.youtube.com/@earthcam/streams",
+      "https://www.youtube.com/@tripwebcam"
+    ]
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "Wl92QYs2aVA",
+      "label": "Mulberry Street"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "rnXIjl_Rzy4",
+      "label": "Times Square"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "IOz_BoSpEi4",
+      "label": "Statue of Liberty"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "Yzit2MCJ9gw",
+      "label": "WTC Memorial"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "TsgoxkRFit0",
+      "label": "One Vanderbilt"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "B4TfN-h7Oz4",
+      "label": "Upper East Side"
+    }
+  ]
+}
