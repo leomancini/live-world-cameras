@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "name": "Davao City"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "gwSO8WXTtNc",
+      "location": " Other Side of The Store in Agdao Public Market",
+      "label": "Agdao Public Market"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "Jk4d3RjaAVA",
+      "location": "Inside Barber Shop",
+      "label": "Barber Shop"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "BxEmGNapmr4",
+      "location": "Lyn's Sisig Beef BBQ",
+      "label": "Lyn's Sisig Beef BBQ"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "q5_YIpEuMsI",
+      "location": "Tyre Repair Shop & Sari-Sari store",
+      "label": "Tyre Repair Shop"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "p0Qhe4vhYLQ",
+      "location": "Soliman Street",
+      "label": "Soliman Street"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "tcUSoJMU2AQ",
+      "location": "Cynthia Store",
+      "label": "Cynthia Store"
+    }
+  ]
+}

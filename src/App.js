@@ -15,7 +15,7 @@ import NYC_TRAFFIC_IMAGES from "./configs/NYC_TRAFFIC_IMAGES.json";
 import NYC_STREETS from "./configs/NYC_STREETS.json";
 import NYC_OLD_STREETS from "./configs/NYC_OLD_STREETS.json";
 import JAPAN from "./configs/JAPAN.json";
-
+import DAVAO_CITY from "./configs/DAVAO-CITY.json";
 const CONFIGS = {
   WORLD_AIRPORTS,
   WORLD_CITIES,
@@ -24,7 +24,8 @@ const CONFIGS = {
   NYC_TRAFFIC_IMAGES,
   NYC_STREETS,
   NYC_OLD_STREETS,
-  JAPAN
+  JAPAN,
+  DAVAO_CITY
 };
 
 const COMPONENTS = {
