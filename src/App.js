@@ -76,13 +76,26 @@ const Label = styled.div`
 let CONFIG = CONFIGS.NYC_TRAFFIC_VIDEOS;
 const queryParams = new URLSearchParams(window.location.search);
 const configParam = queryParams.get("config");
+const pathConfig = window.location.pathname.substring(1); // Remove leading slash
 
-if (window.location.hostname.includes("live-cameras")) {
-  CONFIG = CONFIGS[configParam] || CONFIG;
+// Convert kebab-case to UPPER_SNAKE_CASE
+const formatConfigName = (name) => {
+  if (!name) return name;
+  return name.toUpperCase().replace(/-/g, "_");
+};
+
+// Check both query param and path-based config
+let configName = formatConfigName(configParam);
+if (!configName && pathConfig) {
+  configName = formatConfigName(pathConfig);
 }
 
-if (configParam) {
-  CONFIG = CONFIGS[configParam] || CONFIG;
+if (window.location.hostname.includes("live-cameras")) {
+  CONFIG = CONFIGS[configName] || CONFIG;
+}
+
+if (configName && CONFIGS[configName]) {
+  CONFIG = CONFIGS[configName];
 }
 
 document.title = CONFIG.metadata.name;
