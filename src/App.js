@@ -90,10 +90,6 @@ if (!configName && pathConfig) {
   configName = formatConfigName(pathConfig);
 }
 
-if (window.location.hostname.includes("live-cameras")) {
-  CONFIG = CONFIGS[configName] || CONFIG;
-}
-
 if (configName && CONFIGS[configName]) {
   CONFIG = CONFIGS[configName];
 }
