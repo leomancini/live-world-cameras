@@ -1,9 +1,8 @@
 {
-  "short_name": "NYC Traffic Cameras",
-  "name": "NYC Traffic Cameras",
+  "short_name": "Live World Cameras",
+  "name": "Live World Cameras",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
-
