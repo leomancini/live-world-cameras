@@ -82,7 +82,6 @@ const pathConfig = window.location.pathname.substring(1); // Remove leading slas
 
 const formatConfigName = (name) => {
   if (!name) return null;
-  // First replace global with world, then handle the formatting
   const formattedName = name
     .toLowerCase()
     .replace(/global/g, "world")
@@ -98,7 +97,9 @@ if (!configName && pathConfig) {
 
 if (window.location.hostname.includes("live-world-cameras")) {
   CONFIG =
-    configName && CONFIGS[configName] ? CONFIGS[configName] : CONFIGS.US_CITIES;
+    configName && CONFIGS[configName]
+      ? CONFIGS[configName]
+      : CONFIGS.WORLD_CITIES;
 } else {
   CONFIG =
     configName && CONFIGS[configName]
