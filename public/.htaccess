@@ -8,15 +8,14 @@ RewriteCond %{REQUEST_FILENAME} !-d
 # Rewrite all requests to the index.html
 RewriteRule ^(.*)$ index.html [QSA,L]
 
-# Enable CORS (if needed)
+# Enable CORS
 Header set Access-Control-Allow-Origin "*"
 
-# Security headers
+# Security headers (removed X-Frame-Options to allow embedding)
 Header set X-Content-Type-Options "nosniff"
-Header set X-Frame-Options "SAMEORIGIN"
 Header set X-XSS-Protection "1; mode=block"
 
-# Cache control for static assets (adjust as needed)
+# Cache control for static assets
 <FilesMatch "\.(css|js|jpg|jpeg|png|gif|ico)$">
     Header set Cache-Control "max-age=31536000, public"
 </FilesMatch>
