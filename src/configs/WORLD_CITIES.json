@@ -5,9 +5,9 @@
   "cameras": [
     {
       "type": "YouTubeLiveVideo",
-      "source": "TUd7JORZeWo",
-      "location": "Shibuya Scramble Crossing, Tokyo, Japan",
-      "label": "Tokyo"
+      "source": "u4UZ4UvZXrg",
+      "location": "Dublin",
+      "label": "Dublin"
     },
     {
       "type": "YouTubeLiveVideo",
@@ -23,15 +23,15 @@
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "peNuCjLYm_k",
-      "location": "Seoul Station Plaza, Seoul, South Korea",
-      "label": "Seoul"
+      "source": "ld87T3g_nyg",
+      "location": "Tamariu, Spain",
+      "label": "Tamariu"
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "7dE4IjDQJmE",
-      "location": "Fairmont The Palm, Dubai, UAE",
-      "label": "Dubai"
+      "source": "6QoLEltTzIM",
+      "location": "Copacabana Beach",
+      "label": "Rio de Janeiro"
     },
     {
       "type": "YouTubeLiveVideo",

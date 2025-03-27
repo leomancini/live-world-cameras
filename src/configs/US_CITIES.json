@@ -6,15 +6,15 @@
   "cameras": [
     {
       "type": "YouTubeLiveVideo",
-      "source": "RNc7D7ga0XY",
-      "location": "Washington, DC",
-      "label": "Washington, DC"
+      "source": "RH5fgOcO0jg",
+      "location": "Philadelphia, Pennsylvania",
+      "label": "Philadelphia, PA"
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "4TIpitPIsPA",
-      "location": "Las Vegas",
-      "label": "Las Vegas, NV"
+      "source": "h38bnKKIlGY",
+      "location": "Sitka, Alaska",
+      "label": "Sitka, AK"
     },
     {
       "type": "YouTubeLiveVideo",
@@ -30,15 +30,15 @@
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "DLmn7f9SJ5A",
+      "source": "TITm2dUr2dA",
       "location": "New Orleans",
       "label": "New Orleans, LA"
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "Ezm7jMHsx5A",
-      "location": "Kansas City",
-      "label": "Kansas City, MO"
+      "source": "TUZ5xJ1-EBk",
+      "location": "Bethlehem, Pennsylvania",
+      "label": "Bethlehem, PA"
     }
   ]
 }
