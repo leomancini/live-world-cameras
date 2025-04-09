@@ -55,12 +55,12 @@ const ScaledWrapper = styled.div`
   }
 
   .video-js video {
-    width: 110%;
-    height: 110%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     position: absolute;
-    top: -5%;
-    left: -5%;
+    top: 0;
+    left: 0;
   }
 `;
 

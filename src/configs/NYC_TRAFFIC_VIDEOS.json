@@ -12,15 +12,15 @@
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_096/playlist.m3u8",
-      "location": "I-278 at 54th Avenue",
-      "label": "Kosciuszko Bridge"
+      "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_082/playlist.m3u8",
+      "location": "I-278 at Metropolitan Avenue",
+      "label": "Brooklyn-Queens Expressway"
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_118/playlist.m3u8",
-      "location": "907M at Roosevelt Avenue",
-      "label": "Grand Central Parkway"
+      "source": "https://s9.nysdot.skyvdn.com:443/rtplive/R11_227/playlist.m3u8",
+      "location": "907M at 31 St",
+      "label": "Triborough Bridge"
     },
     {
       "type": "NYCTrafficVideo",
@@ -36,9 +36,9 @@
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s52.nysdot.skyvdn.com:443/rtplive/R11_019/playlist.m3u8",
-      "location": "I-95 at Clay Avenue",
-      "label": "Interstate 95"
+      "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_116/playlist.m3u8",
+      "location": "907M at 27th Avenue",
+      "label": "LaGuardia Airport"
     }
   ]
 }
