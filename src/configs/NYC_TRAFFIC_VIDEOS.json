@@ -12,15 +12,15 @@
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_082/playlist.m3u8",
-      "location": "I-278 at Metropolitan Avenue",
-      "label": "Brooklyn-Queens Expressway"
+      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_096/playlist.m3u8",
+      "location": "I-278 at 54th Avenue",
+      "label": "Kosciuszko Bridge"
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s9.nysdot.skyvdn.com:443/rtplive/R11_227/playlist.m3u8",
-      "location": "907M at 31 St",
-      "label": "Triborough Bridge"
+      "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_111/playlist.m3u8",
+      "location": "907M at 37th Street",
+      "label": "Triborough Bridge Approach"
     },
     {
       "type": "NYCTrafficVideo",
@@ -36,8 +36,8 @@
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_116/playlist.m3u8",
-      "location": "907M at 27th Avenue",
+      "source": "https://s9.nysdot.skyvdn.com:443/rtplive/R11_223/playlist.m3u8",
+      "location": "907M at 86 St",
       "label": "LaGuardia Airport"
     }
   ]
