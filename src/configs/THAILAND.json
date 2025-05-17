@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "name": "Thailand"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "e9T0L_POAOk",
+      "location": "Bondi Aussie Bar & Grill",
+      "label": "Bondi Aussie Bar & Grill"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "VR-x3HdhKLQ",
+      "location": "The Best Pancake Man",
+      "label": "The Best Pancake Man"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "j4D0N8Pevwg",
+      "location": "Jimmy Woo's Chaweng",
+      "label": "Jimmy Woo's Chaweng"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "U1LMXaV3sYI",
+      "location": "Tropical Murphy's Irish Pub",
+      "label": "Tropical Murphy's Irish Pub"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "OFVpXuZOlPc",
+      "location": "The Shack",
+      "label": "The Shack"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "FyFAqPHBKiQ",
+      "location": "El Gaucho",
+      "label": "El Gaucho"
+    }
+  ]
+}

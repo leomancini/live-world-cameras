@@ -21,6 +21,7 @@ import NYC_STREETS from "./configs/NYC_STREETS.json";
 import NYC_OLD_STREETS from "./configs/NYC_OLD_STREETS.json";
 import JAPAN from "./configs/JAPAN.json";
 import DAVAO_CITY from "./configs/DAVAO_CITY.json";
+import THAILAND from "./configs/THAILAND.json";
 import UNDERWATER from "./configs/UNDERWATER.json";
 const CONFIGS = {
   WORLD_AIRPORTS,
@@ -37,6 +38,7 @@ const CONFIGS = {
   NYC_OLD_STREETS,
   JAPAN,
   DAVAO_CITY,
+  THAILAND,
   UNDERWATER
 };
 
