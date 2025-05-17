@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "name": "US Air & Sea Ports"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "rT7tNsEdSDg",
+      "label": "San Francisco"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "L_beX9ZAhLQ",
+      "label": "New York"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "IlTaHVysYU8",
+      "label": "Jeffersonville"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "GPfYRwPkQ08",
+      "label": "Anchorage"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "iUNQeTOWa0o",
+      "label": "Michigan"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "M8_wWiCs8CM",
+      "label": "Iowa"
+    }
+  ]
+}

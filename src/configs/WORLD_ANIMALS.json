@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "name": "World Animals"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "3szkFHfr6sA",
+      "label": "Wolong Grove Pandas"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "ydYDqZQpim8",
+      "label": "Namibia Waterhole"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "3liN9HGJvZo",
+      "label": "Maine Puffins"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "m_nQT62B4Y",
+      "label": "Los Angeles Cat Rescue"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "DHUnz4dyb54",
+      "label": "Palau Reef Model"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "1rvCfsW_qTA",
+      "label": "Long Beach Jellyfish"
+    }
+  ]
+}

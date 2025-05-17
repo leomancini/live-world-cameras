@@ -9,23 +9,35 @@ import YouTubeLoopingVideo from "./types/YouTubeLoopingVideo";
 
 import WORLD_AIRPORTS from "./configs/WORLD_AIRPORTS.json";
 import WORLD_CITIES from "./configs/WORLD_CITIES.json";
+import WORLD_RELIGIOUS_SITES from "./configs/WORLD_RELIGIOUS_SITES.json";
+import WORLD_ANIMALS from "./configs/WORLD_ANIMALS.json";
+import WORLD_LANDMARKS from "./configs/WORLD_LANDMARKS.json";
 import US_CITIES from "./configs/US_CITIES.json";
+import US_RAILWAYS from "./configs/US_RAILWAYS.json";
+import US_AIR_SEA from "./configs/US_AIR_SEA.json";
 import NYC_TRAFFIC_VIDEOS from "./configs/NYC_TRAFFIC_VIDEOS.json";
 import NYC_TRAFFIC_IMAGES from "./configs/NYC_TRAFFIC_IMAGES.json";
 import NYC_STREETS from "./configs/NYC_STREETS.json";
 import NYC_OLD_STREETS from "./configs/NYC_OLD_STREETS.json";
 import JAPAN from "./configs/JAPAN.json";
 import DAVAO_CITY from "./configs/DAVAO-CITY.json";
+import UNDERWATER from "./configs/UNDERWATER.json";
 const CONFIGS = {
   WORLD_AIRPORTS,
   WORLD_CITIES,
+  WORLD_RELIGIOUS_SITES,
+  WORLD_ANIMALS,
+  WORLD_LANDMARKS,
   US_CITIES,
+  US_RAILWAYS,
+  US_AIR_SEA,
   NYC_TRAFFIC_VIDEOS,
   NYC_TRAFFIC_IMAGES,
   NYC_STREETS,
   NYC_OLD_STREETS,
   JAPAN,
-  DAVAO_CITY
+  DAVAO_CITY,
+  UNDERWATER
 };
 
 const COMPONENTS = {

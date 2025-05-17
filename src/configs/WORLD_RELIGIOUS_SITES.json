@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "name": "World Religious Sites"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "4B7hwTBYLOc",
+      "label": "Mecca"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "y4k2lXk1MBw",
+      "label": "Jerusalem"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "J6MqpK91bEA",
+      "label": "Vatican City"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "iJNIydYiCQ8",
+      "label": "Shri Babul Nath Mandir"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "t8RYeNpnPN8",
+      "label": "Buddha Tooth Relic Temple"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "DIgkvm2nmHc",
+      "label": "ISS"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "name": "World Landmarks"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "j9Sa4uBGGQ0",
+      "label": "Abbey Road"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "HpZAez2oYsA",
+      "label": "Venice"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "5uZa3-RMFos",
+      "label": "Sydney Opera House"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "1cnReFAU04k",
+      "label": "Mount Fuji"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "9NqDZpej9vQ",
+      "label": "Effiel Tower"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "wbW5D9Lx3oI",
+      "label": "Grand Canyon"
+    }
+  ]
+}

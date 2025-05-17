@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "name": "US Railways"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "oAJH5nZgrNQ",
+      "label": "Houston, TX"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "2QSqEmIEJNU",
+      "label": "San Diego, CA"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "wR6pk7KMiG0",
+      "label": "Savanna, IL"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "u5dt2mHDuxQ",
+      "label": "Saint Paul, MN"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "wgkdREYOfw0",
+      "label": "Ashland, VA"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "DuXSP6y9W7U",
+      "label": "Fort Madison, IA"
+    }
+  ]
+}

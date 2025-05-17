@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "name": "Underwater"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "zPqPFZMGTF8",
+      "label": "Florida"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "Kf-x20Yq0_A",
+      "label": "Honduras"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "ha2CVpbUG0E",
+      "label": "Steve Porter's Koi Pond"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "JH_NzhSsqis",
+      "label": "Catalina Island"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "og8bbxl0iW8",
+      "label": "North Carolina"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "OAJF1Ie1m_Q",
+      "label": "Anacapa Island"
+    }
+  ]
+}
