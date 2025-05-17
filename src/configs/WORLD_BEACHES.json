@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "name": "World Beaches"
+  },
+  "cameras": [
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "3LXQWU67Ufk",
+      "label": "Los Angeles"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "V_I168MM-ik",
+      "label": "British Virgin Islands"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "loHbMM9JfCs",
+      "label": "Curaçao"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "1nVFCfRlqRo",
+      "label": "Koh Phangan"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "l2em7gqBj00",
+      "label": "Alabama"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "WEhuDqlxHmM",
+      "label": "North Carolina"
+    }
+  ]
+}

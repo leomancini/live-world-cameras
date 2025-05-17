@@ -12,6 +12,7 @@ import WORLD_CITIES from "./configs/WORLD_CITIES.json";
 import WORLD_RELIGIOUS_SITES from "./configs/WORLD_RELIGIOUS_SITES.json";
 import WORLD_ANIMALS from "./configs/WORLD_ANIMALS.json";
 import WORLD_LANDMARKS from "./configs/WORLD_LANDMARKS.json";
+import WORLD_BEACHES from "./configs/WORLD_BEACHES.json";
 import US_CITIES from "./configs/US_CITIES.json";
 import US_RAILWAYS from "./configs/US_RAILWAYS.json";
 import US_AIR_SEA from "./configs/US_AIR_SEA.json";
@@ -29,6 +30,7 @@ const CONFIGS = {
   WORLD_RELIGIOUS_SITES,
   WORLD_ANIMALS,
   WORLD_LANDMARKS,
+  WORLD_BEACHES,
   US_CITIES,
   US_RAILWAYS,
   US_AIR_SEA,
