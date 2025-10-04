@@ -5,33 +5,33 @@
   "cameras": [
     {
       "type": "YouTubeLiveVideo",
-      "source": "rT7tNsEdSDg",
+      "source": "BSWhGNXxT9A",
       "label": "San Francisco"
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "L_beX9ZAhLQ",
-      "label": "New York"
+      "source": "VSiQ7BLkZHw",
+      "label": "New Jersey"
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "IlTaHVysYU8",
-      "label": "Jeffersonville"
+      "source": "jy3gOOs9_9Y",
+      "label": "Miami"
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "GPfYRwPkQ08",
+      "source": "k11A3Klg7VQ",
       "label": "Anchorage"
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "iUNQeTOWa0o",
+      "source": "mVHTqCXsZB0",
       "label": "Michigan"
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "M8_wWiCs8CM",
-      "label": "Iowa"
+      "source": "edz0ux7JClE",
+      "label": "San Diego"
     }
   ]
 }
