@@ -32,6 +32,12 @@
       "source": "GLQhbRGv5qU",
       "location": "Shinjuku JR Station",
       "label": "Shinjuku B"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "HiNFpNlSAbg",
+      "location": "Sapporo, Hokkaido",
+      "label": "Sapporo B"
     }
   ]
 }

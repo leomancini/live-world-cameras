@@ -22,6 +22,16 @@
       "type": "YouTubeLiveVideo",
       "source": "yv2RtoIMNzA",
       "label": "Charles Sturt University"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "NqOmHpwMUxs",
+      "label": "Seattle Aquarium"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "HHp4rjhJsWI",
+      "label": "Galveston Aquarium"
     }
   ]
 }

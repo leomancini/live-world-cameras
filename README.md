@@ -11,7 +11,7 @@ Created: Wed 21 Aug 2024 10:07:23 PM EDT
 - 🚕 [NYC Streets](https://live-world-cameras.leo.gd/nyc-streets)
 - 📷 [NYC Traffic Images](https://live-world-cameras.leo.gd/nyc-traffic-images)
 - 🎥 [NYC Traffic Videos](https://live-world-cameras.leo.gd/nyc-traffic-videos)
-- 🏝️ [Thailand Koh Samui](https://live-world-cameras.leo.gd/thailand-koh-samui)
+- 🏝️ [Thailand](https://live-world-cameras.leo.gd/thailand)
 - 🌊 [Underwater](https://live-world-cameras.leo.gd/underwater)
 - ✈️ [US Air & Sea](https://live-world-cameras.leo.gd/us-air-sea)
 - 🏙️ [US Cities](https://live-world-cameras.leo.gd/us-cities)

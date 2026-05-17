@@ -21,7 +21,7 @@ import NYC_TRAFFIC_IMAGES from "./configs/NYC_TRAFFIC_IMAGES.json";
 import NYC_STREETS from "./configs/NYC_STREETS.json";
 import NYC_OLD_STREETS from "./configs/NYC_OLD_STREETS.json";
 import JAPAN from "./configs/JAPAN.json";
-import THAILAND_KOH_SAMUI from "./configs/THAILAND_KOH_SAMUI.json";
+import THAILAND from "./configs/THAILAND.json";
 import UNDERWATER from "./configs/UNDERWATER.json";
 const CONFIGS = {
   WORLD_AIRPORTS,
@@ -38,7 +38,7 @@ const CONFIGS = {
   NYC_STREETS,
   NYC_OLD_STREETS,
   JAPAN,
-  THAILAND_KOH_SAMUI,
+  THAILAND,
   UNDERWATER
 };
 

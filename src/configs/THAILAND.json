@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "name": "Thailand \u2013 Koh Samui"
+    "name": "Thailand"
   },
   "cameras": [
     {
@@ -23,9 +23,21 @@
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "FyFAqPHBKiQ",
-      "location": "El Gaucho",
-      "label": "El Gaucho"
+      "source": "Tpj0cmMVOd0",
+      "location": "Baobab Beach",
+      "label": "Baobab Beach"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "Q71sLS8h9a4",
+      "location": "Sukhumvit Road, Bangkok",
+      "label": "Sukhumvit Road"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "yFgVmioYkys",
+      "location": "Soi Green Mango",
+      "label": "Soi Green Mango"
     }
   ]
 }
