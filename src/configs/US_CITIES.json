@@ -6,39 +6,9 @@
   "cameras": [
     {
       "type": "YouTubeLiveVideo",
-      "source": "RH5fgOcO0jg",
-      "location": "Philadelphia, Pennsylvania",
-      "label": "Philadelphia, PA"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "h38bnKKIlGY",
-      "location": "Sitka, Alaska",
-      "label": "Sitka, AK"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "__S1lZ6t1qg",
-      "location": "Roswell, New Mexico",
-      "label": "Roswell, NM"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "sQxL8t0gtu8",
-      "location": "Chicago",
-      "label": "Chicago, IL"
-    },
-    {
-      "type": "YouTubeLiveVideo",
       "source": "SDK_m1_BVJ4",
       "location": "Houston",
       "label": "Houston, TX"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "qHW8srS0ylo",
-      "location": "New Orleans",
-      "label": "New Orleans, LA"
     }
   ]
 }

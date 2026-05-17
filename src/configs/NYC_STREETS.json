@@ -9,11 +9,6 @@
   "cameras": [
     {
       "type": "YouTubeLiveVideo",
-      "source": "rnXIjl_Rzy4",
-      "label": "Times Square A"
-    },
-    {
-      "type": "YouTubeLiveVideo",
       "source": "4qyZLflp-sI",
       "label": "Times Square B"
     },
@@ -21,21 +16,6 @@
       "type": "YouTubeLiveVideo",
       "source": "iiBTWU2FyFo",
       "label": "Times Square C"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "OgqbZLzEbQU",
-      "label": "New York Harbor"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "TsgoxkRFit0",
-      "label": "One Vanderbilt"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "B4TfN-h7Oz4",
-      "label": "Upper East Side"
     }
   ]
 }

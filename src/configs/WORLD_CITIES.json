@@ -5,39 +5,9 @@
   "cameras": [
     {
       "type": "YouTubeLiveVideo",
-      "source": "u4UZ4UvZXrg",
-      "location": "Dublin",
-      "label": "Dublin"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "RDqrx6S2z20",
-      "location": "Dome of St. Peter's, Rome",
-      "label": "Rome"
-    },
-    {
-      "type": "YouTubeLiveVideo",
       "source": "Q71sLS8h9a4",
       "location": "Sukhumvit Road, Bangkok, Thailand",
       "label": "Bangkok"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "zuWxsbV-mlA",
-      "location": "Seoul, South Korea",
-      "label": "Seoul"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "h1wly909BYw",
-      "location": "Nevskiy Avenue, St. Petersburg, Russia",
-      "label": "St. Petersburg"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "tujkoXI8rWM",
-      "location": "Shibuya Scramble Crossing, Tokyo, Japan",
-      "label": "Tokyo"
     }
   ]
 }

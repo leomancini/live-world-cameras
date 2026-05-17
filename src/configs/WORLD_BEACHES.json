@@ -5,18 +5,13 @@
   "cameras": [
     {
       "type": "YouTubeLiveVideo",
-      "source": "3LXQWU67Ufk",
-      "label": "Los Angeles"
-    },
-    {
-      "type": "YouTubeLiveVideo",
       "source": "V_I168MM-ik",
       "label": "British Virgin Islands"
     },
     {
       "type": "YouTubeLiveVideo",
       "source": "loHbMM9JfCs",
-      "label": "Curaçao"
+      "label": "Cura\u00e7ao"
     },
     {
       "type": "YouTubeLiveVideo",

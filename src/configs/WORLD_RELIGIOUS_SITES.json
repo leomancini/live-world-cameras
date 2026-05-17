@@ -5,31 +5,6 @@
   "cameras": [
     {
       "type": "YouTubeLiveVideo",
-      "source": "7-Qf3g-0xEI",
-      "label": "Mecca"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "tg2ceBQnYKc",
-      "label": "Jerusalem"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "J6MqpK91bEA",
-      "label": "Vatican City"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "_RoV-sueMWs",
-      "label": "Shri Mahakaleshwar Jyotirlinga Temple"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "ktMSRSyHYvc",
-      "label": "Buddha Tooth Relic Temple"
-    },
-    {
-      "type": "YouTubeLiveVideo",
       "source": "fO9e9jnhYK8",
       "label": "ISS"
     }

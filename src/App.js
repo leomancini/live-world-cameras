@@ -21,7 +21,6 @@ import NYC_TRAFFIC_IMAGES from "./configs/NYC_TRAFFIC_IMAGES.json";
 import NYC_STREETS from "./configs/NYC_STREETS.json";
 import NYC_OLD_STREETS from "./configs/NYC_OLD_STREETS.json";
 import JAPAN from "./configs/JAPAN.json";
-import PHILIPPINES_DAVAO_CITY from "./configs/PHILIPPINES_DAVAO_CITY.json";
 import THAILAND_KOH_SAMUI from "./configs/THAILAND_KOH_SAMUI.json";
 import UNDERWATER from "./configs/UNDERWATER.json";
 const CONFIGS = {
@@ -39,7 +38,6 @@ const CONFIGS = {
   NYC_STREETS,
   NYC_OLD_STREETS,
   JAPAN,
-  PHILIPPINES_DAVAO_CITY,
   THAILAND_KOH_SAMUI,
   UNDERWATER
 };

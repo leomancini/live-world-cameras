@@ -5,16 +5,6 @@
   "cameras": [
     {
       "type": "YouTubeLiveVideo",
-      "source": "57w2gYXjRic",
-      "label": "Abbey Road"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "HpZAez2oYsA",
-      "label": "Venice"
-    },
-    {
-      "type": "YouTubeLiveVideo",
       "source": "5uZa3-RMFos",
       "label": "Sydney Opera House"
     },
@@ -22,11 +12,6 @@
       "type": "YouTubeLiveVideo",
       "source": "1cnReFAU04k",
       "label": "Mount Fuji"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "9NqDZpej9vQ",
-      "label": "Effiel Tower"
     },
     {
       "type": "YouTubeLiveVideo",

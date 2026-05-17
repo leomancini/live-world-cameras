@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "name": "Thailand – Koh Samui"
+    "name": "Thailand \u2013 Koh Samui"
   },
   "cameras": [
     {
@@ -18,20 +18,8 @@
     {
       "type": "YouTubeLiveVideo",
       "source": "6MMXJrzT5c0",
-      "location": "Henry Africa's Bar & Café",
-      "label": "Henry Africa's Bar & Café"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "U1LMXaV3sYI",
-      "location": "Tropical Murphy's Irish Pub",
-      "label": "Tropical Murphy's Irish Pub"
-    },
-    {
-      "type": "YouTubeLiveVideo",
-      "source": "OFVpXuZOlPc",
-      "location": "The Shack",
-      "label": "The Shack"
+      "location": "Henry Africa's Bar & Caf\u00e9",
+      "label": "Henry Africa's Bar & Caf\u00e9"
     },
     {
       "type": "YouTubeLiveVideo",
