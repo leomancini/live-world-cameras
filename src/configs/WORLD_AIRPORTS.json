@@ -22,6 +22,16 @@
       "type": "YouTubeLiveVideo",
       "source": "y3_x8el5ZJY",
       "label": "Taiwan"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "euH5-K8dzZ0",
+      "label": "Las Vegas"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "3w4zEyFamuA",
+      "label": "Tokyo"
     }
   ]
 }
