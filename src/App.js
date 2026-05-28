@@ -116,7 +116,7 @@ if (window.location.hostname.includes("live-world-cameras")) {
   CONFIG =
     configName && CONFIGS[configName]
       ? CONFIGS[configName]
-      : CONFIGS.WORLD_CITIES;
+      : CONFIGS.WORLD_AIRPORTS;
 } else {
   CONFIG =
     configName && CONFIGS[configName]
