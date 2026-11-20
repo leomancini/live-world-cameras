@@ -91,7 +91,7 @@ const ScanlineVideo = ({ source }) => {
           autoplay: true,
           muted: true,
           preload: "auto",
-          fluid: true,
+          fill: true,
           playsinline: true,
           html5: {
             hls: {
