@@ -36,8 +36,8 @@
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s9.nysdot.skyvdn.com:443/rtplive/R11_223/playlist.m3u8",
-      "location": "907M at 86 St",
+      "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_116/playlist.m3u8",
+      "location": "907M at 27th Avenue",
       "label": "LaGuardia Airport"
     }
   ]
