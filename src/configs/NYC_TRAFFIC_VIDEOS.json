@@ -12,14 +12,14 @@
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_096/playlist.m3u8",
-      "location": "I-278 at 54th Avenue",
+      "source": "https://s7.nysdot.skyvdn.com:443/rtplive/R11_222/playlist.m3u8",
+      "location": "I-278 at 56th Road",
       "label": "Kosciuszko Bridge"
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s9.nysdot.skyvdn.com:443/rtplive/R11_294/playlist.m3u8",
-      "location": "907M at I-678/VWE",
+      "source": "https://s53.nysdot.skyvdn.com:443/rtplive/R11_175/playlist.m3u8",
+      "location": "I-678 at Main Street",
       "label": "Van Wyck Expressway"
     },
     {
