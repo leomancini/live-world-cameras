@@ -6,14 +6,14 @@
   "cameras": [
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_127/playlist.m3u8",
-      "location": "I-495 at Queens Midtown Tunnel",
+      "source": "https://s52.nysdot.skyvdn.com:443/rtplive/R11_135/playlist.m3u8",
+      "location": "I-495 at Between 50th and 58th Street",
       "label": "Queens Midtown Tunnel"
     },
     {
       "type": "NYCTrafficVideo",
-      "source": "https://s7.nysdot.skyvdn.com:443/rtplive/R11_222/playlist.m3u8",
-      "location": "I-278 at 56th Road",
+      "source": "https://s51.nysdot.skyvdn.com:443/rtplive/R11_096/playlist.m3u8",
+      "location": "I-278 at 54th Avenue",
       "label": "Kosciuszko Bridge"
     },
     {
