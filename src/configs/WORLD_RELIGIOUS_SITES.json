@@ -7,6 +7,31 @@
       "type": "YouTubeLiveVideo",
       "source": "fO9e9jnhYK8",
       "label": "ISS"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "77akujLn4k8",
+      "label": "Western Wall"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "03pYP2Nmreo",
+      "label": "St. Peter's Square"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "8Rzq8IlqaGE",
+      "label": "Fátima"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "juUt-rN5CVo",
+      "label": "Aparecida"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "MMeBDRfRHyA",
+      "label": "Fushimi Inari"
     }
   ]
 }

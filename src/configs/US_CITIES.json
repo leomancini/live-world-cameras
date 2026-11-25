@@ -9,6 +9,31 @@
       "source": "SDK_m1_BVJ4",
       "location": "Houston",
       "label": "Houston, TX"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "xqdukYhcGEU",
+      "label": "New Orleans, LA"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "W9ghgZD6Ugw",
+      "label": "Chicago, IL"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "ICva1RPK6Do",
+      "label": "Nashville, TN"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "lcVm-Izrpa0",
+      "label": "Key West, FL"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "EO_1LWqsCNE",
+      "label": "Los Angeles, CA"
     }
   ]
 }

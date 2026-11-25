@@ -16,6 +16,26 @@
       "type": "YouTubeLiveVideo",
       "source": "pv-2pVViNwc",
       "label": "Times Square C"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "ZxCeWQ3Lcig",
+      "label": "Times Square North"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "hMWSUCXkj6w",
+      "label": "Bryant Park"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "tErYxn2UM5Y",
+      "label": "Brooklyn Bridge"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "H67j7H-7QD0",
+      "label": "Coney Island"
     }
   ]
 }
