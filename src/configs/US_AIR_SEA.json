@@ -12,6 +12,26 @@
       "type": "YouTubeLiveVideo",
       "source": "edz0ux7JClE",
       "label": "San Diego"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "n4I0d44oBEs",
+      "label": "Los Angeles"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "V7_orOtu-oo",
+      "label": "Las Vegas"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "5BwHVTeiYEY",
+      "label": "Miami"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "H6cm5Hf-yFY",
+      "label": "Duluth"
     }
   ]
 }

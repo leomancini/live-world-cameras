@@ -8,6 +8,31 @@
       "source": "Q71sLS8h9a4",
       "location": "Sukhumvit Road, Bangkok, Thailand",
       "label": "Bangkok"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "dfVK7ld38Ys",
+      "label": "Tokyo"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "zMCea32gpmg",
+      "label": "London"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "mt7uE-n0YPI",
+      "label": "Venice"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "3nyPER2kzqk",
+      "label": "Dublin"
+    },
+    {
+      "type": "YouTubeLiveVideo",
+      "source": "vk5BHoDxXf0",
+      "label": "Seoul"
     }
   ]
 }
