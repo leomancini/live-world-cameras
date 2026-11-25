@@ -5,19 +5,19 @@
   "cameras": [
     {
       "type": "YouTubeLiveVideo",
-      "source": "e9T0L_POAOk",
+      "source": "Jv_2vPCbZUo",
       "location": "Bondi Aussie Bar & Grill",
       "label": "Bondi Aussie Bar & Grill"
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "VR-x3HdhKLQ",
-      "location": "The Best Pancake Man",
-      "label": "The Best Pancake Man"
+      "source": "54qgxiqQQb8",
+      "location": "The Shack, Fisherman's Village, Bophut",
+      "label": "Fisherman's Village"
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "6MMXJrzT5c0",
+      "source": "Ajo0iFkX3EY",
       "location": "Henry Africa's Bar & Caf\u00e9",
       "label": "Henry Africa's Bar & Caf\u00e9"
     },
@@ -35,7 +35,7 @@
     },
     {
       "type": "YouTubeLiveVideo",
-      "source": "yFgVmioYkys",
+      "source": "ffoc6Wpa7n8",
       "location": "Soi Green Mango",
       "label": "Soi Green Mango"
     }
